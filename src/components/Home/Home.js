@@ -7,8 +7,6 @@ import ReactConfirmAlert, { confirmAlert } from 'react-confirm-alert';
 import '../../styles/react-confirm-alert.css';
 
 class Home extends Component {
- 
-
   constructor(props) {
     super(props);
 

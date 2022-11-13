@@ -55,13 +55,13 @@ class Login extends Component {
      return (
       <div className="row" id="Body">
         <div className="medium-5 columns left">
-        <h4>Login</h4>
-        <label>Username</label>
-        <input type="text" name="username" placeholder="Username" onChange={this.onChange}/>
-        <label>Password</label>
-        <input type="password" name="password"  placeholder="Password" onChange={this.onChange}/>
-        <input type="submit" className="button success" value="Login" onClick={this.login}/>
-        <a href="/signup">Registration</a>
+        <h4>Войти</h4>
+        <label>Ник или почта</label>
+        <input type="text" name="username" placeholder="Имя" onChange={this.onChange}/>
+        <label>Пароль</label>
+        <input type="password" name="password"  placeholder="Пароль" onChange={this.onChange}/>
+        <input type="submit" className="button success" value="Войти" onClick={this.login}/>
+        <a href="/signup">Регистрация</a>
         </div>
       </div>
     );

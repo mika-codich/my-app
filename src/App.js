@@ -14,7 +14,7 @@ class App extends Component {
   constructor(){
     super();
     this.state={
-      appName: "Banana",
+      appName: "slowly read",
       home: false
     }
   }

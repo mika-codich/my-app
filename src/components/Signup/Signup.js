@@ -50,18 +50,20 @@ class Signup extends Component {
       
       <div className="row " id="Body">
         <div className="medium-5 columns left">
-        <h4>Signup</h4>
+        <h4>Регистрация</h4>
         <label>Email</label>
         <input type="text" name="email"  placeholder="Email" onChange={this.onChange}/>
-        <label>Name</label>
-        <input type="text" name="name"  placeholder="Name" onChange={this.onChange}/>
-        <label>Username</label>
-        <input type="text" name="username" placeholder="Username" onChange={this.onChange}/>
-        <label>Password</label>
-        <input type="password" name="password"  placeholder="Password" onChange={this.onChange}/>
+        <label>Фио</label>
+        <input type="text" name="name"  placeholder="Имя" onChange={this.onChange}/>
+        <label>Ник</label>
+        <input type="text" name="username" placeholder="Ник" onChange={this.onChange}/>
+        <label>Пароль</label>
+        <input type="password" name="password"  placeholder="Пароль" onChange={this.onChange}/>
+        <label>Повтор пароля</label>
+        <input type="password" name="return_password"  placeholder="Поавтор пароля" onChange={this.onChange}/>
         
-        <input type="submit" className="button" value="Sign Up" onClick={this.signup}/>
-        <a href="/login">Login</a>
+        <input type="submit" className="button" value="Зарегестрироваться" onClick={this.signup}/>
+        <a href="/login">Войти</a>
         </div>
         
       </div>
